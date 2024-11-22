@@ -22,7 +22,7 @@
                 return false;
             }
             else {
-                saldo = saldo - MenosDinero;
+                saldo -= MenosDinero; // Editado por Mario
                 System.out.println("La operación es válida");
                 return true;
             }
